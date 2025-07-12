@@ -17,7 +17,17 @@ const Projects = () => {
 
     const projects = [
         {
-            id: 1,
+            id: 10,
+            title: 'GoStage',
+            description: 'A modern web platform for event ticketing and management — enabling users to create events, sell tickets, track attendees, and scan QR codes in real time.',
+            image: '/gostage.png',
+            technologies: ['Next.js', 'Midtrans', 'QR Code', 'Prisma', 'PostgreSQL'],
+            githubUrl: 'https://github.com/yomjsty/gostage',
+            liveUrl: 'https://gostage.vercel.app/',
+            date: '2025',
+        },
+        {
+            id: 9,
             title: 'Mutatio',
             description: 'A web service for managing changelogs via API key — keeping your project updates organized and easy to track.',
             image: '/mutatio.png',
@@ -27,7 +37,7 @@ const Projects = () => {
             date: '2025',
         },
         {
-            id: 2,
+            id: 8,
             title: 'LinkFuse',
             description: 'A smart bio link tool like Linktree — easily share all your important links in one customizable page.',
             image: '/linkfuse.png',
@@ -37,7 +47,7 @@ const Projects = () => {
             date: '2025',
         },
         {
-            id: 3,
+            id: 7,
             title: 'Tempat Kopi',
             description: 'A blog that features cafes and coffee spots across Indonesia — discover your next favorite hangout.',
             image: '/tempatkopi.png',
@@ -47,7 +57,7 @@ const Projects = () => {
             date: '2025',
         },
         {
-            id: 4,
+            id: 6,
             title: 'xNovel ID',
             description: 'An online platform for reading novels and comics — anytime, anywhere.',
             image: '/xnovelid.png',
@@ -67,7 +77,7 @@ const Projects = () => {
             date: '2024',
         },
         {
-            id: 6,
+            id: 4,
             title: 'Klare',
             description: 'Modern e-commerce app with seamless payments powered by Midtrans. Shop easily, pay securely.',
             image: '/klare.png',
@@ -77,7 +87,7 @@ const Projects = () => {
             date: '2024',
         },
         {
-            id: 7,
+            id: 3,
             title: 'Our Anime List',
             description: 'A web app that pulls anime data from platforms like MyAnimeList, giving you detailed info, ratings, and recommendations — just like IMDb, but for anime.',
             image: '/animelist.png',
@@ -87,7 +97,7 @@ const Projects = () => {
             date: '2024',
         },
         {
-            id: 8,
+            id: 2,
             title: 'TravelTales Blog',
             description: 'CMS-powered blog for passionate travelers, offering an easy way to publish stories, tips, and travel inspiration from around the world.',
             image: '/traveltales.png',
@@ -97,7 +107,7 @@ const Projects = () => {
             date: '2024',
         },
         {
-            id: 9,
+            id: 1,
             title: 'MoodMeal',
             description: 'AI-powered web app that recommends meals based on your mood. Just pick how you feel, and MoodMeal serves up the perfect dish to match your vibe.',
             image: '/moodmeal.png',
